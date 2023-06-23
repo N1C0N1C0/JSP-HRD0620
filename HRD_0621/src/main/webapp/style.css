@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+	margin : 0;
+	padding : 0;
+}
+
+body {
+	font-size : 1.2em;
+	color : black;
+	width : 100vw;
+	height : 100vh;
+	display : grid;
+	grid-template-rows : 80px 40px auto 60px;
+	grid-template-areas : 
+	'header'
+	'nav'
+	'section'
+	'footer'
+}
+
+header {
+	grid-area : 'header';
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	background-color : blue;
+}
+
+nav {
+	grid-area : 'nav';	
+	background-color : red;
+	display : flex;
+	align-items : center;
+}
+
+nav ul {
+	display : flex;
+	align-items : center;
+	width : 60vw;
+	justify-content : space-around;
+}
+
+nav ul li {
+	list-style : none;
+	justify-content : center;
+	align-items : center;
+}
+
+a {
+	text-decoration : none;
+	color : black;
+}
+
+a:hover {
+	background-color : white;
+	border-radius : 2em;
+}
+
+h2 {
+	padding : 1.2em;
+}
+
+section {
+	grid-area : 'section';
+	background-color : aqua;
+	display : flex;
+	flex-flow : column;
+	align-items : center;
+	position: relative;
+}
+
+section .index {
+	display : flex;
+	flex-flow : column;
+	position: absolute;
+  	top : 110px;
+  	left : 20px;
+}
+
+section p {
+	display : flex;
+	flex-flow : column;
+}
+
+.table table,tr,th,td {
+	border : 1px solid black;
+	border-collapse : collapse;
+	padding : 5px;
+	text-align : center;
+}
+
+.table input, select {
+	float : left;
+}
+
+table {
+	width : 70vw;
+	margin-bottom : 20px;
+}
+
+.btn {
+	padding : 0.2rem;
+}
+
+.btn:hover {
+	cursor : pointer;
+}
+
+.radio {
+	display : flex;
+	border : 0px solid black;
+}
+
+.radio label{
+	display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.radio input {
+	    margin-right: 5px;
+}
+
+footer {
+	grid-area : 'footer';
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	background-color : blue;
+}
