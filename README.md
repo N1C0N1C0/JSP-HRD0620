@@ -1,9 +1,14 @@
 # 単語帳
 --------------
 
-##　紹介
+<div align="center">
+<img width="329" alt="/Users/n1c0/SIS/website_introduction/imgs/woodbook_image.png">
 
->覚えたい単語があるとすぐに登録してセーブができる
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVoluntain-SKKU%2FVoluntain-2nd&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+</div>
+
+# 
 
 ## 必要なソフトウェア
 
