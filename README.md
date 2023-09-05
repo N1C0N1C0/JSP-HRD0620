@@ -5,11 +5,13 @@
 <img width="329" alt="image" src="https://github.com/N1C0N1C0/JSP-HRD0620/assets/102003529/e4cdfa6b-2cb9-47be-adf9-f6a4fb026390.png">
 </div>
 
-
-
 # 単語帳　Web Page v1.0
 >**個人開発**
 <br/> **개발기간: 2023.03.11 ~ 2023.03.18**
+
+## ウェブ開発者紹介
+
+
 
 ## Stacks
 
